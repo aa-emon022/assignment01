@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header style */
+.header_part {
+  background-image: url("./images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1900px;
+  height: 1000px;
+}
+.font_style {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+/* header name style */
+.header {
+  position: relative;
+  right: 20px;
+  top: 285px;
+  margin-right: 140px;
+  text-align: right;
+}
+/* Description of header */
+.header_dec {
+  padding: 15px 0px;
+  line-height: 22px;
+}
+.header_name {
+  font-size: 60px;
+}
+/* bottom  Style */
+.header_Con {
+  background-color: white;
+  color: #005fac;
+  line-height: 40px;
+  padding: 0px 17px;
+  border: none;
+  border-radius: 3px;
+}
+/* Main function style */
+.previous_year {
+  font-family: "Work Sans", sans-serif;
+}
+/* 1st part ob BG and  failures */
+.first {
+  display: flex;
+  width: 1072px;
+  height: 723.3px;
+  left: 206px;
+  top: 939px;
+  padding: 180px;
+}
+/* previous year detail */
+.fail_ha {
+  font-size: 37px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.fail_con {
+  line-height: 21px;
+}
+/* tick sign */
+.tick_position {
+  padding-top: 20px;
+}
+.tick {
+  width: auto;
+  height: 36px;
+  /* padding: 0px 0px 0px px; */
+}
+
+.tick::before {
+  content: "\2713";
+  font-size: 26px;
+  color: green;
+  font-weight: bold;
+}
+
+.previous_year {
+  position: absolute;
+  width: 416px;
+  height: 406px;
+  left: 1262px;
+  top: 1272px;
+}
+/* main function BG photo */
+.backround_image {
+  position: absolute;
+  width: 569px;
+  height: 723.3px;
+  left: 206px;
+  top: 1139px;
+}
+/* plans section */
+.plan {
+  position: absolute;
+  width: 179px;
+  height: 47px;
+  left: 765px;
+  bottom: -1020px;
+  padding: 10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+
+  text-align: center;
+}
+.plans {
+  display: flex;
+
+  padding: 5px 260px;
+}
+.my_plan {
+  padding: 2px 80px;
+  text-align: center;
+}
+.backphoto {
+  position: absolute;
+  width: 1140px;
+  height: 300px;
+  left: 330px;
+  top: 2321.96px;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("./images/watch.png");
+  border-radius: 8px;
+}
+.back_h {
+  position: relative;
+  width: 459px;
+  height: 182px;
+  left: 100px;
+  top: 100px;
+}
+.back_h1 {
+  position: relative;
+  left: 100px;
+  top: 2px;
+}
+/* footer section  */
+.last_part {
+  display: flex;
+  background-color: black;
+  position: absolute;
+  width: 1900px;
+  height: 600px;
+  top: 2722px;
+}
+
+.future {
+  position: absolute;
+  padding: 180px 0px 80px 180px;
+}
+.fu_h {
+  padding: 0px 0px 10px 0px;
+}
+.fu_py {
+  position: relative;
+  padding: 20px 0px;
+}
+.f_px {
+  line-height: 25px;
+}
+.fu_py1 {
+  position: relative;
+  padding: 0px 0px 10px 0px;
+}
+/* logo part style */
+.logo_part {
+  display: flex;
+  position: absolute;
+  top: 399px;
+  padding: 0px 0px 0px 145px;
+}
+/* logo photo Design */
+.fb {
+  padding: 0px 0px 0px 25px;
+}
+/* subscribe part style */
+.sub_part {
+  position: relative;
+  left: 1300px;
+  top: 200px;
+}
+.submit_mail {
+  background-color: black;
+  border: 1px solid #ffffff;
+  width: 300px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0px 10px;
+}
+.submit_buttom {
+  border: none;
+  background: #005fac;
+  border-radius: 7px;
+  padding: 15px 30px;
+}
